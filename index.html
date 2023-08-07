@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <hr class="leftLine">
+        <h2 class="header">Bundle&Save</h2>
+        <hr class="rightLine">
+        <!--Box1-->
+        <label for="radioBox1">
+        <div class="displayBox" id="expandBox1">
+            <input class="radioButton" type="radio" name="boxGroup" id="radioBox1" onclick="expandBox(1,195)">
+            <div class="data">
+                <p>1 Pair</p>
+                <p>DKK 195.00</p>
+                <p class="firstOfferTag">50% OFF</p>
+            </div>
+            <!--Display after Expand-->
+            <div class="expandData" id="displaybox1">
+                <div class="cartDetails">
+                    <p class="strikePrice">DKK 195.00</p>
+                    <p>Size</p>
+                    <p style="margin: -35px 57px">Color</p>
+                    <p style="margin: 43px -29px;">#1</p>
+                    <div class="sizeDropdown">
+                        <select>
+                            <option>S</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>&nbsp;&nbsp;
+                        <select>
+                            <option>Color</option>
+                            <option>Green</option>
+                            <option>Red</option>
+                            <option>Orange</option>
+                        </select>
+                    </div>
+
+                    <p style="margin: 82px -29px;">#2</p>
+                    <div class="secondDropdown">
+                        <select>
+                            <option>S</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>&nbsp;&nbsp;
+                        <select>
+                            <option>Color</option>
+                            <option>Green</option>
+                            <option>Red</option>
+                            <option>Orange</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+</label>
+
+        <!--Box2-->
+        <label for="radioBox2">
+        <div class="displayBox" id="expandBox2">
+            <input class="radioButton" type="radio" id="radioBox2" name="boxGroup" onclick="expandBox(2,345)">
+            <div class="data">
+                <p>2 Pair</p>
+                <p>DKK 345.00</p>
+                <p class="secondOfferTag">40% OFF</p>
+            </div>
+            <!--Display after Expand-->
+            <div class="expandData" id="displaybox2">
+                <div class="cartDetails">
+                    <p class="strikePrice">DKK 195.00</p>
+                    <p>Size</p>
+                    <p style="margin: -35px 57px">Color</p>
+                    <p style="margin: 43px -29px;">#1</p>
+                </div>
+                <div class="secondBoxdrop">
+                    <select>
+                        <option>S</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>&nbsp;&nbsp;
+                    <select>
+                        <option>Color</option>
+                        <option>Green</option>
+                        <option>Red</option>
+                        <option>Orange</option>
+                    </select>
+                </div>
+
+                <p style="margin: 82px  3px;">#2</p>
+                <div class="secondBoxdrop2">
+                    <select>
+                        <option>S</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                    </select>
+
+                    &nbsp;&nbsp;
+                    <select>
+                        <option>Color</option>
+                        <option>Green</option>
+                        <option>Red</option>
+                        <option>Orange</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+</label>
+
+        <!--Box3-->
+        <label for="radioBox3">
+        <div class="displayBox" id="expandBox3">
+            <input class="radioButton" type="radio" name="boxGroup" id="radioBox3" onclick="expandBox(3,528)">
+            <div class="data">
+                <p>3 Pair</p>
+                <p>DKK 528.00</p>
+                <p class="thirdOfferTag">60% OFF</p>
+            </div>
+            <!--Display after Expand--> 
+            <div class="expandData" id="displaybox3">
+                <div class="cartDetails">
+                    <p class="strikePrice">DKK 195.00</p>
+                    <p>Size</p>
+                    <p style="margin: -35px 57px">Color</p>
+                    <p style="margin: 43px -29px;">#1</p>
+                    <div class="sizeDropdown">
+                        <select>
+                            <option>S</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>&nbsp;&nbsp;
+                        <select>
+                            <option>Color</option>
+                            <option>Green</option>
+                            <option>Red</option>
+                            <option>Orange</option>
+                        </select>
+                    </div>
+
+                    <p style="margin: 82px -29px;">#2</p>
+                    <div class="secondDropdown">
+                        <select>
+                            <option>S</option>
+                            <option>L</option>
+                            <option>XL</option>
+                            <option>XXL</option>
+                        </select>&nbsp;&nbsp;
+                        <select>
+                            <option>Color</option>
+                            <option>Green</option>
+                            <option>Red</option>
+                            <option>Orange</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+</label>
+        <p class="footer">Free 2 Day Shipping</p>
+        <div id="itemPrice"></div>
+        <button class="addCartButton" onclick="addCart()">
+            <h3>+ Add to Cart</h3>
+        </button>
+    </div>
+</body>
+
+</html>

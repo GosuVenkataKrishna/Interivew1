@@ -1,0 +1,130 @@
+.header {
+    text-align: center;
+    color: #00806d;
+}
+
+body {
+    overflow: hidden;
+}
+
+.leftLine {
+    position: relative;
+    top: 34px;
+    width: 115px;
+    right: 143px;
+}
+
+.rightLine {
+    position: relative;
+    bottom: 35px;
+    width: 115px;
+    left: 141px
+}
+
+.container {
+    position: absolute;
+    top: 30px;
+}
+
+.radioButton {
+    position: relative;
+    bottom: -29px;
+}
+
+.firstOfferTag {
+    position: relative;
+    bottom: 48px;
+    left: 284px
+}
+
+
+.secondOfferTag {
+    position: relative;
+    bottom: 50px;
+    left: 281px;
+}
+
+.thirdOfferTag {
+    position: relative;
+    bottom: 51px;
+    left: 288px;
+}
+
+
+.displayBox {
+    border: 2px solid #802aa524;
+    width: 402px;
+    height: 73px;
+    margin: 10px 478px;
+    /* display: flex; */
+}
+
+.expand1 {
+    height: 200px;
+    border: 2px solid green;
+    background-color: #0080000a;
+}
+
+.data {
+    margin: -24px 36px;
+}
+
+.cartDetails {
+    margin: 35px 34px
+}
+
+.expandData {
+    display: none;
+}
+
+.sizeDropdown {
+    margin: -61px 1px
+}
+
+.secondBoxdrop {
+    margin: -62px 28px;
+}
+
+.secondDropdown {
+    margin: -100px -1px;
+}
+
+.secondBoxdrop2 {
+    margin: -100px 27px
+}
+
+.displayexpandCart {
+    display: block;
+    position: relative;
+    bottom: 56px;
+}
+
+.strikePrice {
+    position: relative;
+    left: 134px;
+    bottom: 23px;
+    text-decoration: line-through;
+}
+
+#itemPrice {
+    position: relative;
+    left: 750px;
+    bottom: 36px;
+    font-family: sans-serif;
+}
+
+.addCartButton {
+    border: 2px solid #802aa524;
+    width: 409px;
+    height: 52px;
+    margin: 10px 478px;
+    background-color: #00806d;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    left: 476px;
+    font-family: sans-serif;
+    color: green;
+}
